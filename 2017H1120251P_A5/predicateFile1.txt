@@ -1,0 +1,13 @@
+Human X : X is a human
+Pompeian X : X is a Pompeian
+Born X Y : X is born on Y A.D.
+Year X : X is year in A.D.
+Ruler X : X is ruler
+Assassinated X Y : X assassinated Y
+Mortal X : X is mortal
+VolcanoErupt X: Volcano Erupted in X A.D.
+Dead X Z: X is dead on Z A.D.
+Loyal X Y: X is loyal to Y
+DisLoyal X Y : X is not loyal to Y
+Alive X Z: X is alive in Z A.D.
+Roman X: X is Roman

@@ -1,0 +1,8 @@
+At X : Logical Agent is at X
+Gold X: Gold is present at X position
+Grab X: grab at position X
+Stench X: Stench is present at X
+Wampus X: Wampus is present at X
+Adjacent X Y : X is adjacent to Y. One square on each of its four sides
+Breeze X; Breeze is there at X
+Pit X: Pit is present at X

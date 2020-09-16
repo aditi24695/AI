@@ -1,0 +1,31 @@
+7
+Human Marcus
+Pompeian Marcus
+Born Marcus 40
+VolcanoErupt 79
+Year 2017
+Ruler Ceaser
+Assassinated Marcus Ceaser
+12
+For_every X Human X => Mortal X
+For_every X There_exists Y There_exists Z Pompeian X && Born X Y && Y<Z && VolcanoErupt Z => Dead X Z
+For_every X There_exists Y Born X Y && Human X => Dead X Y+150
+For_every X There_exists Y For_every Z Born X Y and Z<Y => Dead X Z
+For_every X Alive X Y => ~ Dead X Y
+For_every X There_exists Y For_every Z Dead X Y && Z>X => Dead X Z
+For_every X Pompeian X => Roman X
+For_every X Roman X => Loyal Ceaser X || DisLoyal Ceaser X
+For_every X Loyal Ceaser X => ~ DisLoyal Ceaser X
+For_every X There_exists Y Loyal X Y
+For_every X DisLoyal Ceaser X && Human X => Assassinated X Ceaser
+There_exists X There_exists Y There_exists Z Assassinated X Y && Year Z => Dead Y Z
+8
+Alive Marcus 2017
+Assassinated X Ceaser
+Loyal Ceaser Marcus
+Ruler X
+VolcanoErupt X
+Dead Marcus 60
+DisLoyal Ceaser Marcus
+Alive Marcus 35
+

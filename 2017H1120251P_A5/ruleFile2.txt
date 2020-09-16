@@ -1,0 +1,26 @@
+12
+At 0
+Wampus 4
+Pit 14
+Pit 23
+Pit 25
+Wampus 35
+Wampus 39
+Pit 41
+Wampus 43
+Pit 58
+Pit 60
+Gold 45
+10
+For_every X Gold X && At X => Grab X
+For_every X There_exists Y Stench X => Wampus Y && Adjacent X Y
+For_every X There_exists Y Breeze X => Pit Y && Adjacent X Y
+For_every X Glitter X => Gold X
+For_every X At X && Wampus X || At X && Pit X || At X && Gold X => Terminate X
+There_exists X At X && ~ Stench X+1 && ~ Breeze X+1 => At X+1
+There_exists X At X && ~ Stench X-1 && ~ Breeze X-1 => At X-1
+There_exists X At X && ~ Stench X+8 && ~ Breeze X+8 => At X+8
+There_exists X At X && ~ Stench X-8 && ~ Breeze X-8 => At X-8
+For_every X There_exists Y Adjacent X Y => X=Y+1 || X=Y-1 || X=Y-8 || X=Y+8
+1
+Path
